@@ -8,7 +8,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8l.pt")
 
 
-cap = cv2.VideoCapture("Wisepl Private Limited (720p, h264).mp4")
+cap = cv2.VideoCapture(0)#or give video path
 
 
 fps = cap.get(cv2.CAP_PROP_FPS)  
