@@ -73,9 +73,8 @@ Before running, you **must** configure these critical parameters in the script b
 1.  **Activate Environment:** `source venv/bin/activate` (if applicable).
 2.  **Run the Script:**
     ```bash
-    python your_script_name.py
+    python speed_detect.py
     ```
-    *(Replace `your_script_name.py` with the actual filename)*
 3.  **Observe:** A window titled "Speed Detection" will open, showing the camera feed with detection lines, tracked objects, and calculated speeds. Console output will show line crossing events and speed calculations.
 4.  **Exit:** Press 'q' while the video window is active to stop the script.
 
